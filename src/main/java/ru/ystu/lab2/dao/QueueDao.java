@@ -1,0 +1,1 @@
+package ru.ystu.lab2.dao;import ru.ystu.lab2.entity.Answer;import java.util.List;public interface QueueDao {	Boolean initData();	int getQueueCount();	List<Answer> getAnswers(int queueId);	String getNameQueue(int queueId);	Boolean isTrueAnswer(int queueId, int answerId);}
