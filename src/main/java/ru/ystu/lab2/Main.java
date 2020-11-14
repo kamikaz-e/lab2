@@ -27,5 +27,4 @@ public class Main {
 	public String hello(@RequestParam(value = "name", defaultValue = "test") String name) {
 		return String.format("%s", name);
 	}
-
 }
