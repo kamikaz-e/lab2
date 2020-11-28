@@ -1,1 +1,1 @@
-package ru.ystu.lab2.service;public interface QueueService {	void run();}
+package ru.ystu.lab2.service;public interface QueueService {	void run();}
